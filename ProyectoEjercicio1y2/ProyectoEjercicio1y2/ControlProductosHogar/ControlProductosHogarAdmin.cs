@@ -15,8 +15,9 @@ namespace ControlProductosHogar{
             while (opcion == 0){
 
                 Console.WriteLine("1. Agregar nuevo producto");
-                Console.WriteLine("2. Ver producto más vendido");
-                Console.WriteLine("3. Salir");
+                Console.WriteLine("2. Listar productos");
+                Console.WriteLine("3. Ver producto más vendido");
+                Console.WriteLine("4. Salir");
                 Console.WriteLine("Introduzca la opción: ");
                 opcion = int.Parse(Console.ReadLine());
 
@@ -27,16 +28,22 @@ namespace ControlProductosHogar{
                     agregarProducto();
                     opcion = 0;
                 }
-
                 else if (opcion == 2){
-                    Console.Clear();
                     Console.WriteLine("Se escogio la opción 2");
+                    Console.Clear();
+                    
+                    Console.WriteLine(String.Join(Environment.NewLine,_muebles));
+                }
+
+                else if (opcion == 3){
+                    Console.Clear();
+                    Console.WriteLine("Se escogio la opción 3");
 
                     verProductoMasVendido();
                     Console.WriteLine("\n");
                     opcion = 0;
 
-                }else if (opcion == 3){
+                }else if (opcion == 4){
                     Console.WriteLine("Bye bye");
                 }
                 else{
