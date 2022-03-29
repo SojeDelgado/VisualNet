@@ -1,0 +1,15 @@
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\bin\Debug\net6.0-windows\Tareas.exe
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\bin\Debug\net6.0-windows\Tareas.deps.json
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\bin\Debug\net6.0-windows\Tareas.runtimeconfig.json
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\bin\Debug\net6.0-windows\Tareas.dll
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\bin\Debug\net6.0-windows\Tareas.pdb
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.csproj.AssemblyReference.cache
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.GeneratedMSBuildEditorConfig.editorconfig
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.AssemblyInfoInputs.cache
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.AssemblyInfo.cs
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.csproj.CoreCompileInputs.cache
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.dll
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\refint\Tareas.dll
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.pdb
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\Tareas.genruntimeconfig.cache
+C:\4toSemestre\visualNet\programas\Tareas\Tareas\obj\Debug\net6.0-windows\ref\Tareas.dll
