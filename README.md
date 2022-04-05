@@ -1,2 +1,3 @@
 # VisualNet
-Se agregó la tarea 3 en la carpeta Tareas
+Se borraron los proyectos antiguos para ahorrar espacio.
+Y tambien se agregó la calculadora cientifica
