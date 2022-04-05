@@ -12,5 +12,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Tareas
-build_property.ProjectDir = c:\4toSemestre\visualNet\programas\Tareas\Tareas\
+build_property.RootNamespace = Calculadora
+build_property.ProjectDir = C:\4toSemestre\visualNet\programas\winforms\Calculadora\

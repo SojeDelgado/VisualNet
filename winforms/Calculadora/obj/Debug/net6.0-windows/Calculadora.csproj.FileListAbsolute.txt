@@ -1,0 +1,15 @@
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\bin\Debug\net6.0-windows\Calculadora.exe
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\bin\Debug\net6.0-windows\Calculadora.deps.json
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\bin\Debug\net6.0-windows\Calculadora.runtimeconfig.json
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\bin\Debug\net6.0-windows\Calculadora.dll
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\bin\Debug\net6.0-windows\Calculadora.pdb
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.AssemblyReference.cache
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfo.cs
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.dll
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\refint\Calculadora.dll
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.pdb
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\Calculadora.genruntimeconfig.cache
+C:\4toSemestre\visualNet\programas\winforms\Calculadora\obj\Debug\net6.0-windows\ref\Calculadora.dll
