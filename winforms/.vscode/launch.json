@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
     {
+        "name": "Repaso",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}Repaso/bin/Debug/net6.0-windows/Repaso.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/Repaso",
+        "stopAtEntry": false,
+        "console": "internalConsole"
+    },
+    {
         "name": "Calculadora",
         "type": "coreclr",
         "request": "launch",
