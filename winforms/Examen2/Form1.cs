@@ -67,7 +67,8 @@ namespace Examen2
                         txtConv1.Visible = true;
 
                         lblConv1.Text = itemChecked.ToString();
-                        txtConv1.Text = monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                        txtConv1.Text = tipoMoneda(lblConv1.Text) + monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+
                     }
 
                     if (frmVentana.CLBMonto.CheckedItems.Count == 2)
@@ -79,10 +80,10 @@ namespace Examen2
 
                         if (indice == 1){ 
                             lblConv1.Text = itemChecked.ToString();
-                            txtConv1.Text = monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                            txtConv1.Text = tipoMoneda(lblConv1.Text) + monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                         }
                         lblConv2.Text = itemChecked.ToString();
-                        txtConv2.Text = monedaAConvertir(CBMoneda.Text, lblConv2.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                        txtConv2.Text = tipoMoneda(lblConv2.Text) + monedaAConvertir(CBMoneda.Text, lblConv2.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                     }
 
                     if (frmVentana.CLBMonto.CheckedItems.Count == 3)
@@ -96,14 +97,14 @@ namespace Examen2
 
                         if (indice == 1) { 
                             lblConv1.Text = itemChecked.ToString();
-                            txtConv1.Text = monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                            txtConv1.Text = tipoMoneda(lblConv1.Text) + monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                         }
                         if (indice == 2) { 
                             lblConv2.Text = itemChecked.ToString();
-                            txtConv2.Text = monedaAConvertir(CBMoneda.Text, lblConv2.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                            txtConv2.Text = tipoMoneda(lblConv2.Text) + monedaAConvertir(CBMoneda.Text, lblConv2.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                         }
                         lblConv3.Text = itemChecked.ToString();
-                        txtConv3.Text = monedaAConvertir(CBMoneda.Text, lblConv3.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                        txtConv3.Text = tipoMoneda(lblConv3.Text) + monedaAConvertir(CBMoneda.Text, lblConv3.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                     }
 
                     if (frmVentana.CLBMonto.CheckedItems.Count == 4)
@@ -119,18 +120,18 @@ namespace Examen2
 
                         if (indice == 1){ 
                             lblConv1.Text = itemChecked.ToString();
-                            txtConv1.Text = monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                            txtConv1.Text = tipoMoneda(lblConv1.Text) + monedaAConvertir(CBMoneda.Text, lblConv1.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                         }
                         if (indice == 2) { 
                             lblConv2.Text = itemChecked.ToString();
-                            txtConv2.Text = monedaAConvertir(CBMoneda.Text, lblConv2.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                            txtConv2.Text = tipoMoneda(lblConv2.Text) + monedaAConvertir(CBMoneda.Text, lblConv2.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                         }
                         if (indice == 3) { 
                             lblConv3.Text = itemChecked.ToString();
-                            txtConv3.Text = monedaAConvertir(CBMoneda.Text, lblConv3.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                            txtConv3.Text = tipoMoneda(lblConv3.Text) + monedaAConvertir(CBMoneda.Text, lblConv3.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                         }
                         lblConv4.Text = itemChecked.ToString();
-                        txtConv4.Text = monedaAConvertir(CBMoneda.Text, lblConv4.Text, Convert.ToDouble(txtMonto.Text)).ToString();
+                        txtConv4.Text = tipoMoneda(lblConv4.Text) + monedaAConvertir(CBMoneda.Text, lblConv4.Text, Convert.ToDouble(txtMonto.Text)).ToString();
                     }
                     indice++;
                 }
@@ -167,6 +168,31 @@ namespace Examen2
                 return false;
             }
 
+        }
+
+        private String tipoMoneda(String cadena)
+        {
+            if (cadena == "MXN - Peso mexicano")
+            {
+                return "$ ";
+            }
+            else if (cadena == "USD - Dólar estadounidense")
+            {
+                return "$ ";
+            }
+            else if (cadena == "CAD - Dólar canadiense")
+            {
+                return "$ ";
+            }
+            else if (cadena == "EUR - Euro")
+            {
+                return "€ ";
+            }
+            else if (cadena == "JPY - Yen japonés")
+            {
+                return "¥ ";
+            }
+            else return "";
         }
 
         private double monedaAConvertir(String moneda, String moneda2,double monto)
